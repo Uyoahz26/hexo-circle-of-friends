@@ -42,7 +42,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@main
       with:
-        python-version: 3.6.8
+        python-version: 3.9
 
     - name: Install requirements
       working-directory: ./hexo_circle_of_friends

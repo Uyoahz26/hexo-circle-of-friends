@@ -44,6 +44,10 @@ jobs:
       with:
         python-version: 3.9
 
+    - name: update PIP
+      run: |
+        pip install --upgrade pip
+
     - name: Install requirements
       working-directory: ./hexo_circle_of_friends
       run: |
